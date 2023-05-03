@@ -1,0 +1,259 @@
+[{
+    "_id": {
+        "$oid": "644f8e24dfff447d6ee68c76"
+    },
+    "hospitals": {
+        "hospital_id": "H-1001",
+        "hospital_staff": [{
+                "doctor_id": "D-001",
+                "patient_id": "P-001",
+                "hospital_id": "H-1001"
+            },
+            {
+                "doctor_id": "D-002",
+                "patient_id": "P-002",
+                "hospital_id": "H-1001"
+            }
+        ],
+        "name": "Kent Hospital",
+        "location": "Kent",
+        "contact_info": "101-928-1872"
+    },
+    "rooms": {
+        "room_id": "R-1001",
+        "room_type": "Standard",
+        "availability": true,
+        "floor_number": 1,
+        "hospital_id": "H-1001"
+    },
+    "Doctor_Examination": [{
+            "examination_id": "EX-001",
+            "examination": {
+                "examination_id": "EX-001",
+                "description": "General checkup",
+                "cost": 100
+            },
+            "doctor_id": "D-001",
+            "appointment_date": "2023-03-31"
+        },
+        {
+            "examination_id": "EX-002",
+            "examination": {
+                "examination_id": "EX-001",
+                "description": "General checkup",
+                "cost": 50
+            },
+            "doctor_id": "D-002",
+            "appointment_date": "2023-04-1"
+        }
+    ],
+    "appointments": {
+        "appointment_id": "AP-001",
+        "patient_id": "P-001",
+        "patient": {
+            "patient_id": "P-001",
+            "Patient_Prescription": {
+                "patient_id": "P-001",
+                "prescription_id": "PRE-1001",
+                "prescription": {
+                    "prescription_id": "PRE-1001",
+                    "prescribed_medication": {
+                        "prescribed_medicine_id": "PMD-1001",
+                        "prescription_id": "PRE-1001",
+                        "medicine_id": "MD-1001",
+                        "medication": {
+                            "medicine_id": "MD-1001",
+                            "medication_name": "Brufen",
+                            "expiration_date": "2023-05-01",
+                            "price": 10.99
+                        }
+                    },
+                    "dosgae": 3,
+                    "start_date": "2023-04-10",
+                    "end_date": "2023-04-20"
+                },
+                "start_date": "2023-4-10",
+                "end_date": "2023-04-20",
+                "dosage": "3"
+            },
+            "name": "Adam Smith",
+            "age": 35,
+            "gender": "Male",
+            "address": "123 Main St.",
+            "contact_number": "123-456-7890",
+            "email": "adam.smith@yahoo.com",
+            "room": {
+                "room_id": "R-1001",
+                "room_type": "Standard",
+                "availability": true,
+                "floor_number": 1,
+                "hospital_id": "H-1001"
+            }
+        },
+        "doctor_id": "D-001",
+        "doctor": [{
+                "doctor_id": "D-001",
+                "treatments": {
+                    "treatment_id": "T-1001",
+                    "Doctor_Treatment": {
+                        "treatment_id": "T-1001",
+                        "doctor_id": "D-001"
+                    },
+                    "description": "X-ray",
+                    "cost": 100
+                },
+                "name": "Dr. Jane Doe",
+                "specialization": "Cardiology",
+                "contact_number": "123-456-7890",
+                "email": "jane.doe@kenthospital.com"
+            },
+            {
+                "doctor_id": "D-002",
+                "treatments": {
+                    "treatment_id": "T-1002",
+                    "Doctor_Treatment": {
+                        "treatment_id": "T-1002",
+                        "doctor_id": "D-002"
+                    },
+                    "description": "Endoscope",
+                    "cost": 1000
+                },
+                "name": "Dr. Helm Carl",
+                "specialization": "Cardiology",
+                "contact_number": "123-456-7890",
+                "email": "helm.carl@kenthospital.com"
+            }
+        ],
+        "appointment_date": "2023-04-10",
+        "checkout_date": "2023-04-10"
+    }
+}, {
+    "_id": {
+        "$oid": "644f8fb0dfff447d6ee68c77"
+    },
+    "hospitals": {
+        "hospital_id": "H-1001",
+        "hospital_staff": [{
+                "doctor_id": "D-003",
+                "patient_id": "P-003",
+                "hospital_id": "H-1001"
+            },
+            {
+                "doctor_id": "D-004",
+                "patient_id": "P-004",
+                "hospital_id": "H-1001"
+            }
+        ],
+        "name": "Kent Hospital",
+        "location": "Kent",
+        "contact_info": "101-928-1872"
+    },
+    "rooms": {
+        "room_id": "R-1002",
+        "room_type": "Standard",
+        "availability": true,
+        "floor_number": 1,
+        "hospital_id": "H-1001"
+    },
+    "Doctor_Examination": [{
+            "examination_id": "EX-003",
+            "examination": {
+                "examination_id": "EX-003",
+                "description": "General checkup",
+                "cost": 100
+            },
+            "doctor_id": "D-003",
+            "appointment_date": "2023-03-31"
+        },
+        {
+            "examination_id": "EX-004",
+            "examination": {
+                "examination_id": "EX-003",
+                "description": "General checkup",
+                "cost": 50
+            },
+            "doctor_id": "D-004",
+            "appointment_date": "2023-04-1"
+        }
+    ],
+    "appointments": {
+        "appointment_id": "AP-003",
+        "patient_id": "P-003",
+        "patient": {
+            "patient_id": "P-003",
+            "Patient_Prescription": {
+                "patient_id": "P-003",
+                "prescription_id": "PRE-1002",
+                "prescription": {
+                    "prescription_id": "PRE-1002",
+                    "prescribed_medication": {
+                        "prescribed_medicine_id": "PMD-1001",
+                        "prescription_id": "PRE-1002",
+                        "medicine_id": "MD-1001",
+                        "medication": {
+                            "medicine_id": "MD-1001",
+                            "medication_name": "Brufen",
+                            "expiration_date": "2023-05-01",
+                            "price": 10.99
+                        }
+                    },
+                    "dosgae": 3,
+                    "start_date": "2023-04-10",
+                    "end_date": "2023-04-20"
+                },
+                "start_date": "2023-4-10",
+                "end_date": "2023-04-20",
+                "dosage": "3"
+            },
+            "name": "Adam Smith",
+            "age": 35,
+            "gender": "Male",
+            "address": "123 Main St.",
+            "contact_number": "123-456-7890",
+            "email": "adam.smith@yahoo.com",
+            "room": {
+                "room_id": "R-1002",
+                "room_type": "Standard",
+                "availability": true,
+                "floor_number": 1,
+                "hospital_id": "H-1001"
+            }
+        },
+        "doctor_id": "D-003",
+        "doctor": [{
+                "doctor_id": "D-003",
+                "treatments": {
+                    "treatment_id": "T-1003",
+                    "Doctor_Treatment": {
+                        "treatment_id": "T-1003",
+                        "doctor_id": "D-003"
+                    },
+                    "description": "X-ray",
+                    "cost": 100
+                },
+                "name": "Dr. Jane Doe",
+                "specialization": "Cardiology",
+                "contact_number": "123-456-7890",
+                "email": "jane.doe@kenthospital.com"
+            },
+            {
+                "doctor_id": "D-004",
+                "treatments": {
+                    "treatment_id": "T-1004",
+                    "Doctor_Treatment": {
+                        "treatment_id": "T-1004",
+                        "doctor_id": "D-004"
+                    },
+                    "description": "Endoscope",
+                    "cost": 1000
+                },
+                "name": "Dr. Helm Carl",
+                "specialization": "Cardiology",
+                "contact_number": "123-456-7890",
+                "email": "helm.carl@kenthospital.com"
+            }
+        ],
+        "appointment_date": "2023-04-10",
+        "checkout_date": "2023-04-10"
+    }
+}]
